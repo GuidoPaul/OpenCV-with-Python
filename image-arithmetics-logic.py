@@ -5,8 +5,8 @@
 import cv2
 
 # 500 x 250
-img1 = cv2.imread('3D-Matplotlib.png')
-img2 = cv2.imread('mainsvmimage.png')
+img1 = cv2.imread('images/3D-Matplotlib.png')
+img2 = cv2.imread('images/mainsvmimage.png')
 
 # simple addition
 add1 = img1 + img2
@@ -24,8 +24,8 @@ cv2.waitKey(0)
 # -------------------------------------------------------
 
 # Load two images
-dota = cv2.imread('dota.jpg')
-logo = cv2.imread('dota_logo.jpg')
+dota = cv2.imread('images/dota.jpg')
+logo = cv2.imread('images/dota_logo.jpg')
 
 # I want to put logo on top-left corner, So I create a ROI
 rows, cols, channels = logo.shape

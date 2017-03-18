@@ -5,7 +5,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('Lenna.png', cv2.IMREAD_COLOR)
+img = cv2.imread('images/Lenna.png', cv2.IMREAD_COLOR)
 
 cv2.line(img, (0, 0), (200, 200), (0, 0, 255), 5)
 cv2.rectangle(img, (50, 50), (200, 200), (0, 255, 0), 3)

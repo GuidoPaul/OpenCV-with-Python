@@ -4,7 +4,7 @@
 
 import cv2
 
-img = cv2.imread('Lenna.png', cv2.IMREAD_COLOR)
+img = cv2.imread('images/Lenna.png', cv2.IMREAD_COLOR)
 
 # reference certain characteristics of our image
 print('image shape:', img.shape)
