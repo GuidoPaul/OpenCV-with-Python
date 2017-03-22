@@ -1,1 +1,4 @@
+gathering-images-for-haar-cascade/pos/
+gathering-images-for-haar-cascade/neg/
+gathering-images-for-haar-cascade/info/
 *.pyc
